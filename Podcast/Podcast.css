@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.homepage-bg-container {
+    color: white;
+
+    width: 100%;
+    background-size: cover;
+}
+
+.homepage-top-section {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/podcasts-bg.png");
+    height: 30vh;
+    background-size: cover;
+}
+
+.homepage-top-section-heading {
+    font-family: "roboto";
+    font-size: 35px;
+    color: white;
+    padding: 20px;
+}
+
+.home-card-item {
+    text-align: center;
+    background-color: white;
+    width: 180px;
+    border-radius: 9px;
+    padding: 20px;
+    margin: 15px;
+}
+
+.home-card-image {
+    height: 120px;
+    width: 150px;
+    padding: 10px;
+}
+
+.home-card-name {
+    color: #616e7c;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: normal;
+    color: #151765;
+    font-weight: 700;
+}
+
+.home-card-episodes {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.prodcast-top-section {
+    background-color: #152765;
+    padding: 20px;
+}
+
+.prodcast-image {
+    padding: 15px;
+
+    height: 160px;
+    width: 180px;
+}
+
+.prodcast-description-top-section {
+    padding: 15px;
+    color: white;
+}
+
+.prodcast-top-heading {
+    font-family: "Roboto";
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.prodcast-bottom-section {
+    background-color: white;
+    padding: 10px;
+}
+
+.prodcast-bottom-heading {
+    color: #151765;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.Prodcast-description-bottom-section {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+
+}
+
+.Prodcast-time-bottom-section {
+    color: #151765;
+    font-weight: 600;
+}
+
+.button {
+    width: 100px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: #151765;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.home-section1 {
+    background-image: url("https://img.freepik.com/free-photo/view-retro-microphone-technology-with-copy-space_23-2149506877.jpg?t=st=1732853414~exp=1732857014~hmac=f632965bbd1ed5e07ab07739dc517226fa02cd778257045ca9261c79f93b70f3&w=360");
+    background-size: cover;
+    height: 100vh;
+    padding-top: 200px;
+
+}
+
+.home-section1-heading {
+    font-family: "Lobster";
+    color: black;
+    font-weight: bold;
+    font-size: 60px;
+    text-decoration: underline;
+}

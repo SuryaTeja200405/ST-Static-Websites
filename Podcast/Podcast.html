@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Podcast.css">
+</head>
+
+<body>
+    <div id="sectionhome1">
+        <div class="home-section1 text-center d-flex flex-column ">
+            <div>
+                <h1 class="home-section1-heading">
+                    Top most Podcasts
+                </h1>
+
+                <div>
+                    <button class="button" onclick="display('sectionhomepage')"> View</button>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <div id="sectionhomepage">
+        <div class="homepage-bg-container">
+            <div class="homepage-top-section">
+                <h1 class="homepage-top-section-heading"> Podcasts</h1>
+            </div>
+            <div class="homepage-bottom-section">
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="home-card-item text-center" onclick="display('sectionpuripage')">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="home-card-image" />
+                        <h1 class="home-card-name">Puri jagannadh</h1>
+                        <p class="home-card-episodes">24 Episodes</p>
+                    </div>
+                    <div class="home-card-item" onclick="display('sectiontedx')">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="home-card-image" />
+                        <h1 class="home-card-name">Tedx talks</h1>
+                        <p class="home-card-episodes">12 Episodes</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="home-card-item" onclick="display('sectionsadguru')">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="home-card-image" />
+                        <h1 class="home-card-name">Sadhguru</h1>
+                        <p class="home-card-episodes">49 Episodes</p>
+                    </div>
+                    <div class="home-card-item" onclick="display('sectionjay')">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="home-card-image" />
+                        <h1 class="home-card-name">On purpose</h1>
+                        <p class="home-card-episodes">49 Episodes</p>
+                    </div>
+                </div>
+                <div class="text-right pr-5">
+                    <button class="button" onclick="display('sectionhome1')"> Back</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="sectionpuripage">
+        <div class="prodcast-top-section">
+            <div class="d-flex flex-row ">
+
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="prodcast-image">
+                <div class="prodcast-description-top-section">
+                    <h5> Prodcast</h5>
+                    <h1 class="prodcast-top-heading">Puri Jagannadh Prodcast</h1>
+                    <p>The Puri Jagannadh Prodcast</p>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="prodcast-bottom-section">
+            <div class="d-flex flex-row ">
+
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="prodcast-image">
+                <div class="prodcast-description-top-section">
+                    <h4 class="prodcast-bottom-heading">Molecular Gastronomy</h4>
+                    <p class="Prodcast-description-bottom-section">Anything happens there it will not cook.....</p>
+                    <p class="Prodcast-time-bottom-section">15 min</p>
+                </div>
+
+
+            </div>
+            <div class="d-flex flex-row ">
+
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="prodcast-image">
+                <div class="prodcast-description-top-section">
+                    <h4 class="prodcast-bottom-heading">Mysterious book</h4>
+                    <p class="Prodcast-description-bottom-section">The Voyinch manuscript is the 15th Century book.....</p>
+                    <p class="Prodcast-time-bottom-section">12 min</p>
+                </div>
+
+
+            </div>
+            <div class="d-flex flex-row ">
+
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="prodcast-image">
+                <div class="prodcast-description-top-section">
+                    <h4 class="prodcast-bottom-heading">Predator Drone</h4>
+                    <p class="Prodcast-description-bottom-section">The most power ful drone it is 10 feet height.....</p>
+                    <p class="Prodcast-time-bottom-section">10 min</p>
+                </div>
+
+
+            </div>
+            <div class="d-flex flex-row ">
+
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="prodcast-image">
+                <div class="prodcast-description-top-section">
+                    <h4 class="prodcast-bottom-heading">Paella</h4>
+                    <p class="Prodcast-description-bottom-section">The national dish of spain. It was first star.....</p>
+                    <p class="Prodcast-time-bottom-section">15 min</p>
+                </div>
+
+
+            </div>
+            <div class="text-right pr-5">
+                <button class="button" onclick="display('sectionhomepage')">Back</button>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="sectiontedx">
+        <div class="prodcast-top-section">
+            <div class="d-flex flex-row ">
+
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="prodcast-image">
+                <div class="prodcast-description-top-section">
+                    <h5> Prodcast</h5>
+                    <h1 class="prodcast-top-heading">The Tedx Prodcast</h1>
+                    <p>The TedxProdcast</p>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="prodcast-bottom-section">
+            <div class="d-flex flex-row ">
+
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="prodcast-image">
+                <div class="prodcast-description-top-section">
+                    <h4 class="prodcast-bottom-heading">The Science of friction</h4>
+                    <p class="Prodcast-description-bottom-section">Tribology.It's a funny souding word you might....</p>
+                    <p class="Prodcast-time-bottom-section">12 min</p>
+                </div>
+
+
+            </div>
+            <div class="d-flex flex-row ">
+
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="prodcast-image">
+                <div class="prodcast-description-top-section">
+                    <h4 class="prodcast-bottom-heading">Unleash you</h4>
+                    <p class="Prodcast-description-bottom-section">What can we learn fro the world's most enduringly....</p>
+                    <p class="Prodcast-time-bottom-section">8 min</p>
+                </div>
+
+
+            </div>
+            <div class="d-flex flex-row ">
+
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="prodcast-image">
+                <div class="prodcast-description-top-section">
+                    <h4 class="prodcast-bottom-heading">3 Psyochological tricks</h4>
+                    <p class="Prodcast-description-bottom-section">We all want to save more money-but overall....</p>
+                    <p class="Prodcast-time-bottom-section">10 min</p>
+                </div>
+
+
+            </div>
+            <div class="d-flex flex-row ">
+
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="prodcast-image">
+                <div class="prodcast-description-top-section">
+                    <h4 class="prodcast-bottom-heading">The cast for stubborn</h4>
+                    <p class="Prodcast-description-bottom-section">The decade is a moment of choice unlike any we....</p>
+                    <p class="Prodcast-time-bottom-section">12 min</p>
+                </div>
+
+
+            </div>
+            <div class="text-right pr-5">
+                <button class="button" onclick="display('sectionhomepage')">Back</button>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="sectionsadguru">
+        <div class="prodcast-top-section">
+            <div class="d-flex flex-row ">
+
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="prodcast-image">
+                <div class="prodcast-description-top-section">
+                    <h5> Prodcast</h5>
+                    <h1 class="prodcast-top-heading"> Prodcast</h1>
+                    <p>The Sadhguru Prodcast</p>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="prodcast-bottom-section">
+            <div class="d-flex flex-row ">
+
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="prodcast-image">
+                <div class="prodcast-description-top-section">
+                    <h4 class="prodcast-bottom-heading">Head or heart</h4>
+                    <p class="Prodcast-description-bottom-section">Sadhguru shares his wisdom on how to make...</p>
+                    <p class="Prodcast-time-bottom-section">16 min</p>
+                </div>
+
+
+            </div>
+            <div class="d-flex flex-row ">
+
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="prodcast-image">
+                <div class="prodcast-description-top-section">
+                    <h4 class="prodcast-bottom-heading">How to equip yourself</h4>
+                    <p class="Prodcast-description-bottom-section">Society and human interactions are going.....</p>
+                    <p class="Prodcast-time-bottom-section">13 min</p>
+                </div>
+
+
+            </div>
+            <div class="d-flex flex-row ">
+
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="prodcast-image">
+                <div class="prodcast-description-top-section">
+                    <h4 class="prodcast-bottom-heading">How not to get irritated</h4>
+                    <p class="Prodcast-description-bottom-section">How do you see an unpleasant spouse the...</p>
+                    <p class="Prodcast-time-bottom-section">15 min</p>
+                </div>
+
+
+            </div>
+            <div class="d-flex flex-row ">
+
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="prodcast-image">
+                <div class="prodcast-description-top-section">
+                    <h4 class="prodcast-bottom-heading">Isha Kriyaa</h4>
+                    <p class="Prodcast-description-bottom-section">Rooted in the timeless wisdom if the yogic...</p>
+                    <p class="Prodcast-time-bottom-section">16 min</p>
+                </div>
+
+
+            </div>
+            <div class="text-right pr-5">
+                <button class="button" onclick="display('sectionhomepage')">Back</button>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div id="sectionjay">
+        <div class="prodcast-top-section">
+            <div class="d-flex flex-row ">
+
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="prodcast-image">
+                <div class="prodcast-description-top-section">
+                    <h5> Prodcast</h5>
+                    <h1 class="prodcast-top-heading">On Purpose with Jay</h1>
+                    <p>The Jay Shetty podcast</p>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="prodcast-bottom-section">
+            <div class="d-flex flex-row ">
+
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="prodcast-image">
+                <div class="prodcast-description-top-section">
+                    <h4 class="prodcast-bottom-heading">Patrick Bet David</h4>
+                    <p class="Prodcast-description-bottom-section">Are you an entrepreneur or have dreams of mental...</p>
+                    <p class="Prodcast-time-bottom-section">10 min</p>
+                </div>
+
+
+            </div>
+            <div class="d-flex flex-row ">
+
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="prodcast-image">
+                <div class="prodcast-description-top-section">
+                    <h4 class="prodcast-bottom-heading">5 Techniques to cope</h4>
+                    <p class="Prodcast-description-bottom-section">Does anxiety looms around every corner of your...</p>
+                    <p class="Prodcast-time-bottom-section">4 min</p>
+                </div>
+
+
+            </div>
+            <div class="d-flex flex-row ">
+
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="prodcast-image">
+                <div class="prodcast-description-top-section">
+                    <h4 class="prodcast-bottom-heading">Radhanath Swami ON</h4>
+                    <p class="Prodcast-description-bottom-section">World-renowned spritual leader and philanthropist...</p>
+                    <p class="Prodcast-time-bottom-section">12 min</p>
+                </div>
+
+
+            </div>
+            <div class="d-flex flex-row ">
+
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="prodcast-image">
+                <div class="prodcast-description-top-section">
+                    <h4 class="prodcast-bottom-heading">3 Ways to let go</h4>
+                    <p class="Prodcast-description-bottom-section">Do the opinions of others veer you from the core...</p>
+                    <p class="Prodcast-time-bottom-section">13 min</p>
+                </div>
+
+
+            </div>
+            <div class="text-right pr-5">
+                <button class="button" onclick="display('sectionhomepage')">Back</button>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
